@@ -1,0 +1,3 @@
+CREATE PROCEDURE trail_GetAll
+AS
+SELECT * FROM Trail

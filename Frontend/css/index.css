@@ -1,0 +1,94 @@
+p {
+    font-size: 16;
+}
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.scroll-post {
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.post-img {
+    border-radius: 50px; 
+    max-width: 300px;
+    min-height: 500px;
+    object-fit: cover;
+}
+
+.expert-post-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.post-title {
+    color: white;
+    position: relative;
+    top: -450px;
+    left: 25px;
+    padding: 5px;
+    font-size: 18px;
+}
+.post-user {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -120px;
+    left: 25px;
+    
+}
+
+button {
+    border: none;
+    background: none;
+}
+button:focus {
+    border: none;
+    background: none;
+}
+
+.landing-button {
+    background-image: url("../images/landing.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.main-button {
+    border-radius: 15px;
+    background-color: aqua;
+    color: white;
+    width: 100px;
+    padding: 0px 25px 0px 25px;
+}
+
+.login-button {
+    border-radius: 15px;
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    padding: 0px 25px 0px 25px;
+}
+
+.btn-without-bg {
+    background-color: transparent;
+}
+
+.abc {
+    margin-top: 510px;
+    margin-bottom: 70px;
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.main-content {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
